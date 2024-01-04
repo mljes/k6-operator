@@ -28,7 +28,7 @@ Kubernetes: `>=1.16.0-0`
 | authProxy.enabled | bool | `true` | enables the protection of /metrics endpoint. (https://github.com/brancz/kube-rbac-proxy) |
 | authProxy.image.name | string | `"gcr.io/kubebuilder/kube-rbac-proxy"` | rbac-proxy image name |
 | authProxy.image.pullPolicy | string | `"IfNotPresent"` | pull policy for the image can be Always, Never, IfNotPresent (default: IfNotPresent) |
-| authProxy.image.tag | string | `"v0.8.0"` | rbac-proxy image tag |
+| authProxy.image.tag | string | `"v0.15.0"` | rbac-proxy image tag |
 | authProxy.livenessProbe | object | `{}` | Liveness probe in Probe format |
 | authProxy.readinessProbe | object | `{}` | Readiness probe in Probe format |
 | authProxy.resources | object | `{}` | rbac-proxy resource limitation/request |
